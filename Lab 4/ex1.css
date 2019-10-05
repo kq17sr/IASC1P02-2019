@@ -1,0 +1,20 @@
+body {
+  background-color:blue;
+}
+
+.Box1{
+  margin: 120px 10% 20px 10%;
+  border: black 3px solid;
+}
+.textbox{
+  color:red;
+  margin: 20px 10% 20px 2%;
+  border: green 2px dashed;
+}
+
+.ex1_photo{
+  margin: 10px 10% 0px 0%;
+  border: orange 2px dashed;
+  padding: 10px 5% 10px 5%;
+
+}

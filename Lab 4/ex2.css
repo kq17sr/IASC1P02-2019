@@ -1,0 +1,43 @@
+body{
+  background-color: black;
+}
+
+div{
+  background-color: white;
+  }
+
+.textbox2{
+    margin: 20px 1% 2px 1%;
+    border: purple 2px dotted;
+    padding: 200px 40% 20px 40%;
+    font-size: 15px;
+    text-align: center;
+  }
+
+.line2{
+    color: green;
+    margin:5px 10% 20px 10%;
+    text-align: center;
+    font-size: 10px;
+}
+
+.line3{
+  color: orange;
+  font-size: 30px;
+}
+
+#supline{
+  color: red;
+}
+
+.line4{
+  color: purple;
+  display: inline;
+  font-size: 10px;
+  margin: 5% 0% 0% 80%;
+}
+
+#emline{
+    color: yellow;
+    text-transform: uppercase;
+}

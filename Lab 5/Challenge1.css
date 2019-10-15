@@ -1,0 +1,38 @@
+body{
+	color:white;
+	background-color:black;
+  border-top: 10px solid white;
+  border-bottom: 50px solid white;
+  margin-top: 0px;
+	width: 1200px;
+	position: relative;
+	left: 120px;
+}
+
+#wrapper{
+  margin:0 auto;
+	background-color:red;
+}
+
+#header{
+	height:70px;
+	text-align:center;
+	padding-top: 10px;
+  }
+
+#leftbody{
+	float:left;
+	width:1200px;
+	height:430px;
+	background-color:green;
+	font-size: 10px;
+	padding-top: 15px;
+}
+
+#footer{
+	height:90px;
+  background-color: blue;
+	font-size:10px;
+	padding-top: 15px;
+	clear:both;
+}

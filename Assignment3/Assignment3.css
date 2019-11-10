@@ -1,0 +1,135 @@
+body{
+  background-color: #DCDCDC;
+}
+
+#wrapper{
+    width: 1300px;
+    height: 1700px;
+    margin: 0 auto;
+}
+
+#header{
+ width: 1200px;
+ height: 300px;
+ margin: 0 auto;
+ background-color: #803D15;
+ font-family: Garamond;
+ font-size: 22px;
+}
+
+#header1{
+   text-align: center;
+   padding-top: 90px;
+   color: #F9A602;
+}
+
+#header2{
+    text-align: center;
+    font-style: italic;
+    color: #F9A602;
+ }
+
+ #content1{
+   text-align: center;
+   font-style: italic;
+   font-size: 18px;
+ }
+
+ #name{
+   top:50px;
+   float:right;
+   padding-right:50px;
+   padding-top: 25px;
+   font-size:40px;
+   clear:both;
+  }
+
+ .about{
+    font-style: italic;
+  }
+
+#aboutus{
+   width: 1200px;
+   height: 150px;
+   margin: 0 auto;
+   background-color: #D4A26A;
+   text-align: center;
+   font-family: Garamond;
+   font-size: 18px;
+}
+
+#content2{
+   text-align: center;
+ }
+
+#firstbox{
+  width: 1200px;
+  height: 400px;
+  margin: 0 auto;
+  background-color: #BB7D36;
+  font-family: Garamond;
+  font-size: 18px;
+  clear: both;
+}
+
+.accomondation{
+  float: left;
+  margin-right: 30px;
+  text-align: center;
+}
+
+.accomondation1{
+  font-style: italic;
+  text-align: center;
+  padding-top: 80px;
+}
+
+#secondbox{
+  width: 1200px;
+  height: 400px;
+  margin: 0 auto;
+  background-color: #D4AC6A;
+  font-family: Garamond;
+  font-size: 18px;
+}
+
+.facilities{
+  float: right;
+}
+
+.facilities2{
+  font-style: italic;
+  text-align: center;
+  padding-top: 80px;
+}
+
+#thirdbox{
+  width: 1200px;
+  height: 400px;
+  margin: 0 auto;
+  background-color: #BB7D36;
+  font-family: Garamond;
+  font-size: 18px;
+}
+
+.restaurants{
+  float: left;
+  margin-right: 30px;
+  text-align: center;
+}
+
+.restaurants3{
+  font-style: italic;
+  text-align: center;
+  padding-top: 80px;
+}
+
+#footer{
+  width: 1200px;
+  height: 100px;
+  margin: 0 auto;
+  background-color: #803D15;
+  font-family: Garamond;
+  font-size: 16px;
+  text-align: center;
+}

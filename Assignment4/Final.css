@@ -1,0 +1,467 @@
+/* Start Code for the home page*/
+#wrapper{
+    width: 1450px;
+    height: 1000px;
+    margin: 0 auto;
+}
+/* Create Navigation Code for the home page*/
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color:#DCDCDC;
+  color: #303030;
+}
+
+#header{
+ width: 1450px;
+ height: 100px;
+ font-family: "Verdana", sans-serif;
+ font-size: 18px;
+ padding-top: 20px;
+ padding-bottom: 20px;
+ background-color:#DCDCDC;
+}
+
+.heading{
+  padding-top: 30px;
+  font-style: italic;
+}
+
+#name{
+  top:50px;
+  float:left;
+  padding-left:50px;
+  padding-top: 6px;
+}
+
+
+nav{
+  width:100%;
+  height: 60px;
+  background-color:#FFAD3C;
+;
+
+}
+
+nav ul{
+  float: left;
+}
+
+nav ul li{
+  float: left;
+  list-style: none;
+  position: relative;
+}
+
+nav ul li a{
+  display: block;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  color: #222;
+  font-size: 14px;
+  padding: 22px 14px;
+  text-decoration: none;
+}
+
+nav ul li ul{
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  padding: 10px;
+}
+
+nav ul li:hover ul {
+display: block;
+}
+
+nav ul li ul li a:hover{
+  background-color:#DCDCDC;
+}
+/* End Navigation Code for the home page*/
+
+/* Create About Us Content and image for the home page*/
+#homecontent1{
+  width: 1100px;
+  height: 350px;
+  margin: 10px auto;
+  background-color: #3987C6;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+.image1{
+  float: right;
+  margin-left: 20px;
+}
+
+.homecontent2{
+  text-align: center;
+  padding-top: 60px;
+}
+
+.homecontent3{
+  padding-left: 30px;
+  text-align: center;
+}
+/* End About Us Content and image for the home page*/
+
+/* Create Who are we? Content for the home page*/
+#homecontent4{
+  width: 1400px;
+  height: 200px;
+  margin: 10px auto;
+  text-align: center;
+  padding-top: 10px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+.homecontent5{
+  text-align: center;
+  padding-top: 30px;
+}
+/* End Who are we? Content for the home page*/
+
+/* Create Overlay In Meet our Director Section for the home page*/
+.overlay {
+  position: relative;
+  width: 40%;
+  float: left;
+  padding-top: 10px;
+  margin-left:500px;
+}
+
+.image2 {
+  display: block;
+  width: 30%;
+  height: auto;
+}
+
+.overlay2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right:0;
+  height: 100%;
+  width: 50%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #FFE48F;
+}
+
+.overlay:hover .overlay2 {
+  opacity: 1;
+}
+
+.text {
+  color: #303030;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#homecontent6{
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 18px;
+  text-align: center;
+  width: 1100px;
+  height: 310px;
+  padding-top: 10px;
+  background-color: #3987C6;
+  margin: 10px auto;
+}
+/* End Overlay In Meet our Director Section for the home page*/
+
+
+/* End Code for the home page*/
+
+/* Start Code for the registration page*/
+.myForm {
+font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+font-size: 16px;
+width: 900px;
+padding: 20px;
+border: 10px solid #ccc;
+margin-left: 300px;
+height: 720px;
+margin-top: 40px;
+margin-bottom: 80px;
+}
+
+.myForm * {
+box-sizing: border-box;
+}
+
+.myForm fieldset {
+border: none;
+padding: 5px;
+}
+
+.myForm label {
+padding: 5px;
+font-weight: bold;
+}
+
+.myForm label.choice {
+font-size: 17px;
+font-weight: normal;
+padding: 5px;
+}
+
+.myForm input[type="text"],
+.myForm select,
+.myForm textarea {
+display: block;
+width: 100%;
+border: 1px solid #ccc;
+font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+font-size: 10px;
+padding: 15px;
+}
+
+.myForm desc {
+height: 50px;
+}
+
+.myForm button {
+padding: 1em;
+border-radius: 0.5em;
+background: #eee;
+border: none;
+font-weight: bold;
+margin-top: 1em;
+}
+
+.myForm button:hover {
+background: #ccc;
+cursor: pointer;
+}
+/* End Code for the registration page*/
+
+/* Start Code for the Contact Us page*/
+#contactrightbody{
+  float:right;
+  width:600px;
+  height:500px;
+  background-color:white;
+  margin-top:50px;
+  margin-right:120px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size: 16px;
+  padding-top: 120px;
+  text-align: center;
+}
+
+.contact1{
+  line-height: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.contact2{
+  line-height: 60px;
+  margin-left: 10px;
+}
+
+.contact3{
+  line-height: 40px;
+  margin-left: 10px;
+
+}
+
+.contact4{
+  line-height: 50px;
+  margin-left: 10px;
+}
+
+#contactleftbody{
+  float:left;
+  width:600px;
+  height: 500px;
+  background-color: #3987C6;
+  margin-top:50px;
+  margin-left:120px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size: 16px;
+  padding-top: 120px;
+  text-align: center;
+}
+
+.contact5{
+  line-height: 30px;
+  margin-left: 10px;
+}
+
+.email_address{
+  line-height: 60px;
+}
+
+#contact6{
+  width: 1400px;
+  height: 250px;
+  margin: 10px auto;
+  text-align: center;
+  background-color:#DCDCDC;
+  margin-top: 700px;
+  padding-top:20px;
+  position: relative;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.contact7{
+  text-align: center;
+  padding-top: 30px;
+}
+
+
+/* End Code for the Contact Us page*/
+/* Start Code for the Programs*/
+#programscontent1{
+    width: 1100px;
+    height: 350px;
+    margin: 30px auto;
+    background-color: #DCDCDC;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    padding-left: 30px;
+    padding-top: 40px;
+  }
+
+.programscontent2{
+    line-height: 70px;
+}
+
+.programscontent3{
+  padding-top: 50px;
+  line-height: 30px;
+  font-style: italic;
+}
+
+ul{
+  list-style: none;
+}
+
+.programscontent4{
+  margin-top: 80px;
+  padding-bottom: 20px;
+  font-style: italic;
+  font-size: 50px;
+
+}
+
+#programsleftbody{
+  float:left;
+  width:350px;
+  height: 250px;
+  background-color: #3987C6;
+  margin-top:0px;
+  margin-bottom: 15px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size: 18px;
+  padding-top: 120px;
+  text-align: center;
+  line-height: 20px;
+  font-style: italic;
+}
+
+#programsrightbody{
+  float:right;
+  width:350px;
+  height:250px;
+  background-color:#3987C6;
+  margin-top:0px;
+  margin-bottom: 15px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size: 18px;
+  padding-top: 120px;
+  text-align: center;
+  line-height: 20px;
+  font-style: italic;
+}
+
+#programsmidbody{
+  float:left;
+  width:350px;
+  height: 250px;
+  background-color:#DCDCDC;
+  margin-top:0px;
+  margin-bottom: 15px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size: 18px;
+  padding-top: 120px;
+  text-align: center;
+  line-height: 20px;
+  font-style: italic;
+  margin-left:30px;
+}
+
+#beginnerscontent1{
+  width: 500px;
+  height: 400px;
+  margin: 10px auto;
+  background-color: #3987C6;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 18px;
+  float:left;
+  margin-top: 50px;
+  margin-left: 80px;
+
+}
+
+.beginnerscontent2{
+  text-align: center;
+  padding-top: 60px;
+}
+
+.beginnerscontent3{
+  padding-left: 30px;
+  text-align: center;
+  line-height: 45px;
+}
+
+#intercontent1{
+  width: 500px;
+  height: 400px;
+  background-color: #3987C6;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 18px;
+  float:right;
+  margin-top: 50px;
+  margin-right: 80px;
+}
+
+.intercontent2{
+  text-align: center;
+  padding-top: 60px;
+}
+
+.intercontent3{
+  padding-left: 30px;
+  text-align: center;
+  line-height: 45px;
+}
+
+.collaborative{
+  float:right;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  margin-right: 450px;
+}
+/* Create Footer for the home page*/
+#footer{
+height:50px;
+background-color:#FFAD3C;
+font-weight:bold;
+text-align: center;
+padding-top: 10px;
+font-family: "Trebuchet MS", Helvetica, sans-serif;
+clear:both;
+}
+/* End Footer for the home page*/

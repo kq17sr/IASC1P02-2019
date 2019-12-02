@@ -1,0 +1,90 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-type" content="text/html; charset=UTF-8" />
+	<title>Registration</title>
+	<link href="Final.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="Final.js"></script>
+</head>
+
+<body>
+  <div id="wrapper">
+		<div id="header">
+
+  <span id="name">
+    <img src="logo.jpeg" alt = "logo"/>
+  </span>
+
+  <h1 class="heading"> Kids Coding Academy</h1>
+  <p>  Shaping the future of kids </p>
+</div>
+
+<nav>
+    <ul>
+        <li><a href="home.html">Home </a></li>
+        <li><a href="programs.html">Programs</a>
+          <ul>
+            <li><a href="beginners.html">Beginners and Intermediate</a></li>
+            </ul>
+        </li>
+        <li><a href="registration.html">Registration</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+			</ul>
+  </nav>
+
+	<form name= "RegForm" class="myForm" action="action.php" onsubmit="return formValidation()" method="post">
+
+		<p> <label>First Name
+		<input type="text" name="first_name"/>
+		</label>
+		</p>
+
+		<p> <label>Last Name
+		<input type="text" name="last_name"/>
+		</label>
+		</p>
+
+		<p> <label>Date of Birth
+		<input type="text" name="birth_date"/>
+		</label>
+		</p>
+
+		<p> <label>Phone
+		<input type="text" name="phone_number"/>
+		</label>
+		</p>
+
+		<p> <label>Email
+		<input type="text" name="email_address"/>
+		</label>
+		</p>
+
+		<fieldset> <label>Program Type</label>
+		<p><label class="choice"> <input type="checkbox" name="program" value="Beginners"/> Beginners </label></p>
+		<p><label class="choice"> <input type="checkbox" name="program" value="Intermediate"/> Intermediate </label></p>
+		</fieldset>
+
+		<fieldset> <label>Which term are you registering for?</label>
+		<p><label class="choice"> <input type="checkbox" name="term" value="winter"/> Winter </label></p>
+		<p><label class="choice"> <input type="checkbox" name="term" value="spring"/> Spring </label></p>
+		</fieldset>
+
+		<p> <label>List all previous coding experiences and computer skills.
+		</label> </p>
+		<textarea class="desc" cols="20" rows= "2"></textarea>
+
+		<p> <label>Any other comments for the instructors?
+		</label> </p>
+		<textarea class="desc" cols="20" rows= "2"></textarea>
+
+		<button onclick="myFunction()">Submit Form</button>
+
+</form>
+
+ <div id="footer"> ©2019 by Kids Coding Academy </div>
+
+</div>
+</body>
+</html>
